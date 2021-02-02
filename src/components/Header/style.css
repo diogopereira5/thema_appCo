@@ -1,0 +1,76 @@
+.btnFeatured{
+    background-color: rgb(202, 40, 40);
+    width: auto;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.btnFeatured:hover{
+    cursor: pointer;
+}
+
+.logo{
+    background-image: url('./rn_gestor_1.PNG');
+    background-repeat: no-repeat;
+    width: 150px;
+    align-items: center;
+    padding-top: auto;
+    justify-content: center;
+    height: auto;
+    opacity: 0.7;
+    margin-right: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.logo::after {
+    transition: margin-top 250ms;
+}
+.logo:hover::after {
+    margin-top:-8px;
+}
+
+.popUp{
+    background-image: none;
+    z-index: 10;
+    float:right;
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 45%;
+    margin-left:54%;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    height: 50%;
+}
+
+.close{
+    border: solid rgba(70, 21, 150, 0.486) 1px;
+    z-index: 10;
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 10px;
+    right: 0;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: white;
+    opacity: 1;
+}
+
+.close:hover{
+    cursor: pointer;
+    opacity: 1; 
+}
